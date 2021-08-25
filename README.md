@@ -16,3 +16,27 @@ The lite version removes the ability to use iOS guitars as the Bluetooth LE APIs
 - WinUSB driver installed for the Guitar Hero PS3/Wii U dongles
 - Bluetooth dongle for iOS guitars
 - ViGEm Bus Driver
+
+[Tutorial] Use PS3/Wii U/iOS Guitar Hero Live guitars on Clone Hero
+
+I wrote a program to use Wii U/PS3 GHL guitars as well as iOS ones with Clone Hero. (Windows only for now)
+
+    If you're using Windows 7, install .NET Framework 4.5.2
+
+    Install the ViGEm Bus Driver (follow the instructions on the release page) - if you have Parsec installed, you'll already have this and you can skip this step.
+
+    If you're using a Wii U/PS3 guitar, use Zadig to install the WinUSB driver for your dongle (select the Guitar Hero option, enable Show All Devices if necessary)
+
+    Download the latest GHLtar Utility and extract it somewhere on your computer
+
+    Run GHLtar Utility
+
+    GHLtarUtility.exe - for Windows 10
+
+    GHLtarUtilityLite.exe - for Windows 7/8.1, doesn't have iOS support!
+
+    Connect your dongle if using the Wii U/PS3 guitar, turn on your guitar if using the iOS guitar.
+
+    Start Clone Hero and make sure all buttons are mapped correctly (by default they are mapped 1:1 to the 360 GHL guitar)
+
+    enjoy(TM)
